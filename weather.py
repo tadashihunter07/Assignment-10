@@ -2,7 +2,7 @@ import requests
 import json
 
 name = input("Enter your city name: ")
-api_key = "5cca32365df3e78f58eb9a123261c8b4"
+api_key = "3dc951720c62bb3a109a320f24eaf5fc"
 
 url = f"https://api.openweathermap.org/data/2.5/weather?q={name}&appid={api_key}&units=metric"
 
